@@ -1,3 +1,5 @@
+require 'rspec/core/formatters/base_text_formatter'
+
 module RSpec
   class QuickFixFormatter < RSpec::Core::Formatters::BaseTextFormatter
     def dump_summary(duration, example_count, failure_count, pending_count)
