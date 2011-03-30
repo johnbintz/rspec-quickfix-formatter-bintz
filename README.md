@@ -4,9 +4,13 @@ Install the gem:
 
     rake install
 
+Or use Bundler:
+
+    gem "rspec-quickfix-formatter"
+
 In .rspec:
 
-    --format RSpec::Core::Formatters::QuickFixFormatter
+    --format RSpec::QuickFixFormatter
     --out .quickfix-out
 
 In Vim:

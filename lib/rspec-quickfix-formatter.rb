@@ -1,1 +1,3 @@
-require 'rspec/quickfix-formatter'
+module RSpec
+  require 'rspec/quickfix-formatter'
+end
