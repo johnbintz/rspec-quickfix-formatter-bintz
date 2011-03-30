@@ -1,2 +1,1 @@
-require 'rspec/core/formatters/quick_fix_formatter'
-
+require 'rspec/quickfix-formatter'
