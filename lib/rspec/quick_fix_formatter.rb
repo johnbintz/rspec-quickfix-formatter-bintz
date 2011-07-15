@@ -13,7 +13,11 @@ module RSpec
 
     def dump_failures
       failed_examples.each do |example|
-        output.puts "%s:%s:%s" % [ example.file_path, example.metadata[:line_number], example.metadata[:execution_result][:exception].message.gsub("\n", ' ') ]
+        output.puts "%s:%s:%s" % [ 
+          example.file_path, 
+          example.metadata[:line_number], 
+          example.metadata[:execution_result][:exception].message.gsub("\n", ' ')
+        ]
       end
     end
   end
